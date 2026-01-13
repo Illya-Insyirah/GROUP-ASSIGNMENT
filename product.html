@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Sobella Home | Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+
+  <!-- Navigation -->
+<nav class="navbar">
+  <div class="nav-container">
+    <div class="logo">SOBELLA WALL</div>
+    <ul class="nav-links">
+     <li><a href ="index.html">Home</a></li>
+                <li><a href="about.html">About Sobella</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="beauty tips.html">Beauty Tips</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </div>
+</nav>
+
+ <div class="slideshow-container">
+        <div class="mySlides fade">
+            <img src="ss1.jpeg" alt="Illya">
+           
+        </div>
+
+        <div class="mySlides fade">
+            <img src="ss2.png" alt="Insyirah">
+            
+        </div>
+
+        <div class="mySlides fade">
+            <img src="ss3.png" alt="Illya & Insyirah">
+            
+        </div>
+		
+		  <div class="mySlides fade">
+            <img src="ss4.png" alt="Illya & Insyirah">
+            
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+
+        <div class="dot-container">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+			<span class="dot" onclick="currentSlide(4)"></span> 
+        </div>
+    </div>
+	
+   <script src="slideshow.js"></script>
+   
+<div class="shop-container">
+<h2 style="
+    text-align: center; 
+    font-family: 'Times New Roman', Times, serif; 
+    color: #C71585; 
+    text-transform: uppercase; 
+    letter-spacing: 6px; 
+    margin: 40px 0; 
+    font-weight: 500;
+    border-bottom: 1px solid #DB7093;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+">
+  Our Lips Product
+</h2>
+  
+  <div class="responsive">
+    <div class="gallery">
+      <div class="img-box">
+        <img src="lip1.jpeg" alt="Lip Tint">
+        <div class="tag">New</div>
+      </div>
+      <div class="desc">
+        <h3>Lipmate Flori Bloom Sobella</h3>
+        <p class="price">RM 29.00</p>
+        <button class="buy-btn" onclick="addToCart('Lipmate Flori Bloom Sobella', 29.00)">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="img-box">
+        <img src="lip2.jpeg" alt="Matte Lipstick">
+      </div>
+      <div class="desc">
+        <h3>Tinted Lip Oil</h3>
+        <p class="price">RM 35.00</p>
+        <button class="buy-btn" onclick="addToCart('Tinted Lip Oil', 35.00)">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="img-box">
+        <img src="lip3.jpeg" alt="Lip Glaze">
+        <div class="tag">Hot</div>
+      </div>
+      <div class="desc">
+        <h3>Lipmate Timeless Edition</h3>
+        <p class="price">RM 25.00</p>
+        <button class="buy-btn" onclick="addToCart('Lipmate Timeless Edition', 25.00)">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="img-box">
+        <img src="lip4.jpeg" alt="Lip Balm">
+      </div>
+      <div class="desc">
+        <h3>Hydrating Lips Glowing</h3>
+        <p class="price">RM 19.00</p>
+        <button class="buy-btn" onclick="addToCart('Hydrating Lips Glowing', 19.00)">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="clearfix"></div>
+
+<img src="quotes.jpeg" alt="Nature" style="display: block; margin: 0 auto; width: 70%; height: 500px;">
+
+
+<div class="shop-container">
+<h2 style="
+    text-align: center; 
+    font-family: 'Times New Roman', Times, serif; 
+    color: #C71585; 
+    text-transform: uppercase; 
+    letter-spacing: 6px; 
+    margin: 40px 0; 
+    font-weight: 500;
+    border-bottom: 1px solid #DB7093;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+">
+    Our Product Collection
+</h2>
+  
+  <div class="responsive">
+    <div class="gallery">
+      <div class="img-box">
+        <img src="p1.jpeg" alt="Lip Tint">
+        <div class="tag">New</div>
+      </div>
+      <div class="desc">
+        <h3> Liquid Foundation Sobella</h3>
+        <p class="price">RM 29.00</p>
+        <button class="buy-btn" onclick="addToCart('Liquid Foundation Sobella', 29.00)">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="img-box">
+        <img src="p2.jpeg" alt="Matte Lipstick">
+      </div>
+      <div class="desc">
+        <h3>Sobella Concealer</h3>
+        <p class="price">RM 35.00</p>
+        <button class="buy-btn" onclick="addToCart('Sobella Concealer', 35.00)">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="img-box">
+        <img src="p3.jpeg" alt="Lip Glaze">
+        <div class="tag">Hot</div>
+      </div>
+      <div class="desc">
+        <h3>Love Stick Blusher</h3>
+        <p class="price">RM 25.00</p>
+        <button class="buy-btn" onclick="addToCart('Love Stick Blusher', 25.00)">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="img-box">
+        <img src="p4.jpeg" alt="Lip Balm">
+      </div>
+      <div class="desc">
+        <h3>Pom Pom Blush Sobella</h3>
+        <p class="price">RM 19.00</p>
+        <button class="buy-btn" onclick="addToCart('Pom Pom Blush Sobella', 19.00)">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+<div class="cart-section">
+    <h3 style="margin: 0; font-weight: 700;">Shopping Cart 🛒</h3>
+    
+    <ul id="cart-items">
+        </ul>
+
+    <div class="cart-total-box">
+        Total: RM <span id="cart-total">0.00</span>
+    </div>
+    
+    <button class="clear-btn" onclick="clearCart()">Empty Cart</button>
+    
+    <button class="checkout-btn" onclick="checkoutWhatsApp()">
+        <i class="fab fa-whatsapp"></i> Checkout via WhatsApp
+    </button>
+</div>
+	
+	 <script src="cart.js"></script>
+	 
+	 
+
+<footer class="main-footer">
+    <div class="footer-container">
+        <div class="footer-socials">
+            <a href="https://www.tiktok.com/@sobellabeauty?_r=1&_t=ZS-92vnkp6qxui"><i class="fab fa-tiktok"></i></a>
+            <a href="https://www.instagram.com/sobellabeautyhq_?igsh=MTZ0cTllYTkwemR6dA=="><i class="fab fa-instagram"></i></a>
+			<a href="https://wa.me/601121554470"><i class="fab fa-whatsapp"></i></a>
+        </div>
+
+        <div class="footer-copy">
+		    <p>No. 123, Jalan Sobella, Taman Beauty, 50480 Kuala Lumpur</p>
+            <p>&copy; 2025 SOBELLA. All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-meta">
+            <span><strong>Data Collected:</strong> 2025-11-01</span>
+            <span><strong>Created:</strong> 2025-11-20</span>
+            <span><strong>Last Updated:</strong> Jan 10, 2026</span>
+        </div>
+    </div>
+		
+		<script src="date.js"></script>
+		<a href="sitemap.html"> Sitemap</a>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
